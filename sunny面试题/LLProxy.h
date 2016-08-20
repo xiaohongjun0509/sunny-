@@ -10,4 +10,6 @@
 
 @interface LLProxy : NSProxy
 @property(nonatomic, weak) id target;
+@property(nonatomic, weak) NSString *name;
+@property(nonatomic, weak) NSObject *obj;
 @end

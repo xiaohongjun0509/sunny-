@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "sunny&#x9762;&#x8bd5;&#x9898;/ViewController.m"
-            timestampString = "491108275.596161"
+            timestampString = "491658455.518117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "-forwardInvocation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "sunny&#x9762;&#x8bd5;&#x9898;/ViewController.m"
-            timestampString = "491108275.596161"
+            timestampString = "491658455.518117"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "144"
-            endingLineNumber = "144"
+            startingLineNumber = "121"
+            endingLineNumber = "121"
             landmarkName = "-forwardInvocation:"
             landmarkType = "5">
          </BreakpointContent>
@@ -64,6 +64,149 @@
             startingLineNumber = "17"
             endingLineNumber = "17"
             landmarkName = "-print"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/GCDManager.m"
+            timestampString = "491111571.68193"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "-startAsyncRequest:queue:delay:content:"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__52-[GCDManager startAsyncRequest:queue:delay:content:]_block_invoke_2"
+                  moduleName = "&#x57fa;&#x7840;&#x77e5;&#x8bc6;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xhj/Documents/mycode/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/GCDManager.m"
+                  timestampString = "491658456.538522"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "125">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__copy_helper_block_.38"
+                  moduleName = "&#x57fa;&#x7840;&#x77e5;&#x8bc6;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xhj/Documents/mycode/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/GCDManager.m"
+                  timestampString = "491658456.538742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__destroy_helper_block_.39"
+                  moduleName = "&#x57fa;&#x7840;&#x77e5;&#x8bc6;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/xhj/Documents/mycode/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/sunny%E9%9D%A2%E8%AF%95%E9%A2%98/GCDManager.m"
+                  timestampString = "491658456.538898"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "59">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/GCDManager.m"
+            timestampString = "491111396.543341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "-startGroupRequestNew"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/LLUrlManager.m"
+            timestampString = "491295987.234117"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "+praseHandler:withParams:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/LLUrlManager.m"
+            timestampString = "491296075.506108"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "+praseSchema:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/InfiniteImageView.m"
+            timestampString = "493021238.139606"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "158"
+            endingLineNumber = "158"
+            landmarkName = "-scrollViewDidEndDecelerating:"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "sunny&#x9762;&#x8bd5;&#x9898;/InfiniteImageView.m"
+            timestampString = "491658767.883275"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "84"
+            endingLineNumber = "84"
+            landmarkName = "-stopTimer:"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

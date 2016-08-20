@@ -15,7 +15,7 @@
 
 
 - (id)forwardingTargetForSelector:(SEL)selector {
-    NSLog(@"%@",[self.target valueForKey:@"retainCount"]);
+//    NSLog(@"%@",[self.target valueForKey:@"retainCount"]);
     return self.target;
 }
 

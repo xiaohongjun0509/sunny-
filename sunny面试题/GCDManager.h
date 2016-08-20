@@ -10,4 +10,5 @@
 
 @interface GCDManager : NSObject
 - (void)startGroupRequest;
+- (void)startGroupRequestNew;
 @end

@@ -8,12 +8,14 @@
 
 #import "SecondViewController.h"
 #import "LLProxy.h"
+#import "TestWeak.h"
+#import "InfiniteImageView.h"
 @interface SecondViewController()
 
 @property (nonatomic, weak) NSTimer *timer;
 @property(nonatomic, weak) NSObject *obj;
 @property (nonatomic, strong) LLProxy *proxy;
-
+@property (nonatomic, strong) InfiniteImageView *infiniteImageView;
 @end
 @implementation SecondViewController
 
@@ -21,9 +23,17 @@
 //    [self doSomeThing:nil];
 //}
 
+
+- (void)setupInfiniteImageView{
+    self.infiniteImageView = [[InfiniteImageView alloc] initWithFrame:CGRectMake(0, 100, 320, 200)];
+    self.infiniteImageView.images = @[@"11",@"12",@"13",@"14",@"15"];
+    [self.view addSubview:self.infiniteImageView];
+}
+
 - (void)viewDidLoad{
     [super viewDidLoad];
-    [self setupTimer];
+    [self setupInfiniteImageView];
+//    [self setupTimer];
 }
 - (void)setupTimer{
 //    self.timer = [[NSTimer alloc] init];

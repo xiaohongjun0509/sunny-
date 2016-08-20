@@ -15,6 +15,9 @@
 #import "ManagerCenter.h"
 #import "InhertBase.h"
 #import "GCDManager.h"
+#import "LLUrlManager.h"
+#import "InfiniteImageView.h"
+#import "SynchronizationManager.h"
 @interface ViewController (){
     NSString * _foo;
 }
@@ -24,61 +27,35 @@
 //@property(nonatomic, weak) NSInteger index;
 @property (nonatomic, strong) NSMutableDictionary *dict;
 @property (nonatomic, strong) SecondViewController *secondVC;
+@property (nonatomic, strong) InfiniteImageView *infiniteImageView;
+@property (nonatomic, strong) NSArray *array;
+@property (nonatomic, strong)  NSMutableArray *a;
+@property (nonatomic, strong) Person *person;
 
 @end
 
+
+typedef void(^Block)(void);
 
 static void funIMP(){
     NSLog(@"这是一个函数的实现IMP");
 }
 
+//static NSMutableArray *a;
+
 @implementation ViewController
 
-//@synthesize count = _a;
-//@dynamic count;
 - (IBAction)push:(id)sender {
     
     [self.navigationController pushViewController:[SecondViewController new] animated:YES];
 }
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSLog(@"viewDidLoad");
-//    self.count = 3;
-//    NSArray *a1 = @[@"1",@"2"];
-//    NSArray *a2 = [a1 copy];
-//    NSArray *a3 = [a1 mutableCopy];
-//    _a  = 3;
-//    self.count = 12;
-//    [a1 high];
-//    [self hello:@"helo"];
-//    [self performSelector:@selector(sayWorld) withObject:nil afterDelay:0];
-//    ((void (*)(id, SEL))objc_msgSend)(self, @selector(h));
-//    dispatch_async(<#dispatch_queue_t queue#>, <#^(void)block#>)
-//    dispatch_barrier_async(<#dispatch_queue_t queue#>, <#^(void)block#>)
-//    [self addObserver:self forKeyPath:@"count" options:NSKeyValueObservingOptionNew | NSKeyValueObservingOptionOld context:nil];
-//    self.count = 3;
-//    [self setValue:@"hello" forKey:@"foo"];
-//    [self setValue:@"world" forKey:@"_foo"];
-//    self.dict = [NSMutableDictionary dictionary];
-//    [self.dict setValue:@"value1" forKey:@"key1"];
-//    [self.dict setObject:@"value2" forKey:@"key2"];
-//    [self.dict setValue:nil forKey:@"key1"];
-////    [self.dict setObject:nil forKey:@"key2"];
-//    [self.dict valueForKey:@"@key3"];
-//    [self.dict objectForKey:@"key4"];
+    [[SynchronizationManager new] testSynchronization];
     
-//    dispatch_semaphore_t sem = dispatch_semaphore_create(1);
-//    dispatch_semaphore_wait(sem, DISPATCH_TIME_FOREVER);
-//    //do something
-//    dispatch_semaphore_signal(sem);
-//    [self registerObserver];
-//    [[NSNotificationCenter defaultCenter] postNotificationName:@"testNotification" object:@"hello"];
-//    [[ManagerCenter defaultCenter] postEntityName:@"test" object:@"world"];
-//    InhertBase *inhert = [InhertBase new];
-//    [inhert print];
-    GCDManager *manager = [GCDManager new];
-    [manager startGroupRequest];
 }
 
 
@@ -95,8 +72,8 @@ static void funIMP(){
 
 - (void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-//    [self.secondVC doSomeThing:nil];
-//    self.secondVC = nil;
+//    id count = [self.person.name valueForKey:@"retainCount"];
+//    NSLog(@"name : %@",[self.person.name valueForKey:@"retainCount"]);
     
 }
 - (void)setCount:(NSInteger)count{

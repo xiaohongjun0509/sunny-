@@ -9,12 +9,12 @@
 #import "ViewController+Swizzing.h"
 #import <objc/runtime.h>
 @implementation ViewController (Swizzing)
-+(void)initialize{
-     Method origM = class_getInstanceMethod([self class], @selector(viewDidLoad));
-    Method replaceM = class_getInstanceMethod([self class], @selector(replaceViewDidLoad));
-    method_exchangeImplementations(origM, replaceM);
-    
-}
+//+(void)initialize{
+//     Method origM = class_getInstanceMethod([self class], @selector(viewDidLoad));
+//    Method replaceM = class_getInstanceMethod([self class], @selector(replaceViewDidLoad));
+//    method_exchangeImplementations(origM, replaceM);
+//    
+//}
 
 - (void)replaceViewDidLoad{
     [self replaceViewDidLoad];

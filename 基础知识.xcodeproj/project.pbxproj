@@ -15,6 +15,7 @@
 		B10EC7FD1D408447000B7150 /* Base+BasePrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = B10EC7FC1D408447000B7150 /* Base+BasePrivate.m */; };
 		B10EC8011D410D32000B7150 /* LLProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B10EC8001D410D32000B7150 /* LLProxy.m */; };
 		B10EC81B1D45B50F000B7150 /* GCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B10EC81A1D45B50F000B7150 /* GCDManager.m */; };
+		B144DC411D62E6E400161ABD /* SynchronizationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B144DC401D62E6E400161ABD /* SynchronizationManager.m */; };
 		B18149421D3C66320018CBA2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B18149411D3C66320018CBA2 /* main.m */; };
 		B18149451D3C66320018CBA2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B18149441D3C66320018CBA2 /* AppDelegate.m */; };
 		B18149481D3C66320018CBA2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B18149471D3C66320018CBA2 /* ViewController.m */; };
@@ -26,6 +27,14 @@
 		B19542FB1D3F322800503E86 /* ViewController+Swizzing.m in Sources */ = {isa = PBXBuildFile; fileRef = B19542FA1D3F322800503E86 /* ViewController+Swizzing.m */; };
 		B1A7E8A51D3E89230064DFD5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A7E8A41D3E89230064DFD5 /* SecondViewController.m */; };
 		B1A7E8A71D3E8C5C0064DFD5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B1A7E8A61D3E8C5C0064DFD5 /* SecondViewController.xib */; };
+		B1A9645A1D486B9200AECB3E /* LLUrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A964591D486B9200AECB3E /* LLUrlManager.m */; };
+		B1A9645D1D486BA700AECB3E /* LLBaseHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A9645C1D486BA700AECB3E /* LLBaseHandler.m */; };
+		B1A964601D4895CA00AECB3E /* SohuHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A9645F1D4895CA00AECB3E /* SohuHandler.m */; };
+		B1A964641D49AE8B00AECB3E /* InfiniteImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B1A964631D49AE8B00AECB3E /* InfiniteImageView.m */; };
+		B1A964661D49C0BD00AECB3E /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A964651D49C0BD00AECB3E /* 11.png */; };
+		B1A964681D49C0C200AECB3E /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A964671D49C0C200AECB3E /* 12.png */; };
+		B1A9646A1D49C0C600AECB3E /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = B1A964691D49C0C600AECB3E /* 13.png */; };
+		B1B6AE8F1D4E1D88006A7798 /* TestWeak.m in Sources */ = {isa = PBXBuildFile; fileRef = B1B6AE8E1D4E1D88006A7798 /* TestWeak.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +54,8 @@
 		B10EC8001D410D32000B7150 /* LLProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLProxy.m; sourceTree = "<group>"; };
 		B10EC8191D45B50F000B7150 /* GCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDManager.h; sourceTree = "<group>"; };
 		B10EC81A1D45B50F000B7150 /* GCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDManager.m; sourceTree = "<group>"; };
+		B144DC3F1D62E6E400161ABD /* SynchronizationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynchronizationManager.h; sourceTree = "<group>"; };
+		B144DC401D62E6E400161ABD /* SynchronizationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynchronizationManager.m; sourceTree = "<group>"; };
 		B181493D1D3C66320018CBA2 /* 基础知识.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "基础知识.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B18149411D3C66320018CBA2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B18149431D3C66320018CBA2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -64,6 +75,19 @@
 		B1A7E8A31D3E89230064DFD5 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		B1A7E8A41D3E89230064DFD5 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		B1A7E8A61D3E8C5C0064DFD5 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		B1A964581D486B9200AECB3E /* LLUrlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLUrlManager.h; sourceTree = "<group>"; };
+		B1A964591D486B9200AECB3E /* LLUrlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLUrlManager.m; sourceTree = "<group>"; };
+		B1A9645B1D486BA700AECB3E /* LLBaseHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBaseHandler.h; sourceTree = "<group>"; };
+		B1A9645C1D486BA700AECB3E /* LLBaseHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBaseHandler.m; sourceTree = "<group>"; };
+		B1A9645E1D4895CA00AECB3E /* SohuHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SohuHandler.h; sourceTree = "<group>"; };
+		B1A9645F1D4895CA00AECB3E /* SohuHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SohuHandler.m; sourceTree = "<group>"; };
+		B1A964621D49AE8B00AECB3E /* InfiniteImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfiniteImageView.h; sourceTree = "<group>"; };
+		B1A964631D49AE8B00AECB3E /* InfiniteImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfiniteImageView.m; sourceTree = "<group>"; };
+		B1A964651D49C0BD00AECB3E /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		B1A964671D49C0C200AECB3E /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		B1A964691D49C0C600AECB3E /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		B1B6AE8D1D4E1D88006A7798 /* TestWeak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestWeak.h; sourceTree = "<group>"; };
+		B1B6AE8E1D4E1D88006A7798 /* TestWeak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestWeak.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +139,8 @@
 			children = (
 				B10EC7FF1D410D32000B7150 /* LLProxy.h */,
 				B10EC8001D410D32000B7150 /* LLProxy.m */,
+				B1B6AE8D1D4E1D88006A7798 /* TestWeak.h */,
+				B1B6AE8E1D4E1D88006A7798 /* TestWeak.m */,
 			);
 			name = NSTimer;
 			sourceTree = "<group>";
@@ -126,6 +152,22 @@
 				B10EC81A1D45B50F000B7150 /* GCDManager.m */,
 			);
 			name = "GCD相关";
+			sourceTree = "<group>";
+		};
+		B11FAA2E1D67FC8900E7D4C4 /* KVO的坑 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "KVO的坑";
+			sourceTree = "<group>";
+		};
+		B144DC3E1D62E6BD00161ABD /* 线程同步 */ = {
+			isa = PBXGroup;
+			children = (
+				B144DC3F1D62E6E400161ABD /* SynchronizationManager.h */,
+				B144DC401D62E6E400161ABD /* SynchronizationManager.m */,
+			);
+			name = "线程同步";
 			sourceTree = "<group>";
 		};
 		B18149341D3C66320018CBA2 = {
@@ -147,6 +189,10 @@
 		B181493F1D3C66320018CBA2 /* 基础知识 */ = {
 			isa = PBXGroup;
 			children = (
+				B11FAA2E1D67FC8900E7D4C4 /* KVO的坑 */,
+				B144DC3E1D62E6BD00161ABD /* 线程同步 */,
+				B1A964611D49AE5E00AECB3E /* 图片轮播器 */,
+				B1A964571D4864D800AECB3E /* 组件化跳转 */,
 				B10EC8181D45B46B000B7150 /* GCD相关 */,
 				B10EC7FE1D410D1F000B7150 /* NSTimer */,
 				B10EC7F71D3FD023000B7150 /* 继承 */,
@@ -181,6 +227,31 @@
 				B18149411D3C66320018CBA2 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1A964571D4864D800AECB3E /* 组件化跳转 */ = {
+			isa = PBXGroup;
+			children = (
+				B1A964581D486B9200AECB3E /* LLUrlManager.h */,
+				B1A964591D486B9200AECB3E /* LLUrlManager.m */,
+				B1A9645B1D486BA700AECB3E /* LLBaseHandler.h */,
+				B1A9645C1D486BA700AECB3E /* LLBaseHandler.m */,
+				B1A9645E1D4895CA00AECB3E /* SohuHandler.h */,
+				B1A9645F1D4895CA00AECB3E /* SohuHandler.m */,
+			);
+			name = "组件化跳转";
+			sourceTree = "<group>";
+		};
+		B1A964611D49AE5E00AECB3E /* 图片轮播器 */ = {
+			isa = PBXGroup;
+			children = (
+				B1A964671D49C0C200AECB3E /* 12.png */,
+				B1A964691D49C0C600AECB3E /* 13.png */,
+				B1A964651D49C0BD00AECB3E /* 11.png */,
+				B1A964621D49AE8B00AECB3E /* InfiniteImageView.h */,
+				B1A964631D49AE8B00AECB3E /* InfiniteImageView.m */,
+			);
+			name = "图片轮播器";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,10 +311,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1A964681D49C0C200AECB3E /* 12.png in Resources */,
+				B1A964661D49C0BD00AECB3E /* 11.png in Resources */,
 				B1A7E8A71D3E8C5C0064DFD5 /* SecondViewController.xib in Resources */,
 				B18149501D3C66320018CBA2 /* LaunchScreen.storyboard in Resources */,
 				B181494D1D3C66320018CBA2 /* Assets.xcassets in Resources */,
 				B181494B1D3C66320018CBA2 /* Main.storyboard in Resources */,
+				B1A9646A1D49C0C600AECB3E /* 13.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +329,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10EC7EC1D3F94E2000B7150 /* Entity.m in Sources */,
+				B1A964601D4895CA00AECB3E /* SohuHandler.m in Sources */,
 				B10EC7FD1D408447000B7150 /* Base+BasePrivate.m in Sources */,
 				B1A7E8A51D3E89230064DFD5 /* SecondViewController.m in Sources */,
+				B1A9645D1D486BA700AECB3E /* LLBaseHandler.m in Sources */,
 				B10EC81B1D45B50F000B7150 /* GCDManager.m in Sources */,
 				B18149481D3C66320018CBA2 /* ViewController.m in Sources */,
+				B144DC411D62E6E400161ABD /* SynchronizationManager.m in Sources */,
 				B18149451D3C66320018CBA2 /* AppDelegate.m in Sources */,
 				B10EC7FA1D3FD269000B7150 /* InhertBase.m in Sources */,
+				B1A964641D49AE8B00AECB3E /* InfiniteImageView.m in Sources */,
 				B181495F1D3D0E920018CBA2 /* Person.m in Sources */,
 				B10EC7F21D3FB6EF000B7150 /* LLOperation.m in Sources */,
 				B19542FB1D3F322800503E86 /* ViewController+Swizzing.m in Sources */,
@@ -268,7 +346,9 @@
 				B18149421D3C66320018CBA2 /* main.m in Sources */,
 				B10EC7EF1D3F99F5000B7150 /* ManagerCenter.m in Sources */,
 				B10EC8011D410D32000B7150 /* LLProxy.m in Sources */,
+				B1B6AE8F1D4E1D88006A7798 /* TestWeak.m in Sources */,
 				B181495C1D3C71830018CBA2 /* UIView+Cat.m in Sources */,
+				B1A9645A1D486B9200AECB3E /* LLUrlManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
